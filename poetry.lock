@@ -90,14 +90,6 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
-name = "contas-api-temp"
-version = "0.1"
-description = "API para gestão de finanças"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "debugpy"
 version = "1.6.3"
 description = "An implementation of the Debug Adapter Protocol for Python"
@@ -486,7 +478,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "e62544c589209eeff866d973a6df0c7be4308af2c85d9e6a7bff378a5c8a2eea"
+content-hash = "f328c469a46d9cb95c79b10c69318f07ccca3f40cc6eb43ef51c87ad2ff1879b"
 
 [metadata.files]
 aiohttp = []
@@ -497,7 +489,6 @@ certifi = []
 charset-normalizer = []
 click = []
 colorama = []
-contas-api-temp = []
 debugpy = []
 flask = []
 frozenlist = []
