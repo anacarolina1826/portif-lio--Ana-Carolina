@@ -28,7 +28,17 @@ html, body{
 }
 
 
+
 #header.profile h1{
+  margin:0;
+  padding:0;
+  width:120px;
+  font-weight:100;
+  text-align:center;
+  color:purple;
+}
+
+.profile h1{
   margin:0;
   font-size:24px;
   padding:0;
@@ -40,10 +50,9 @@ html, body{
 #header .profile .social-links a{
   
   font-size:1rem;
-  background:darkviolet;
+  background:black;
   color:white;
-  padding:0.6rem;
-  margin-right:1rem;
+  padding:0,6rem;
   border-radius:50%;
   text-decoration:none;
   transition:0.3s;
@@ -54,12 +63,13 @@ html, body{
 }
 
 .nav-menu{
-  padding:1.5rem;
+  padding:1,5rem;
 }
 
 .nav-menu a, .nav-menu a:focus{
   display:flex;
   align-items:center;
+  color:gray;
   transition:0.3s;
   font-size:15px;
   
@@ -68,15 +78,7 @@ html, body{
 .nav-menu a, .nav-menu a:focus i{
   font-size:24px;
   padding-right:0.8rem;
-  color:mediumpurple;
+  color:gray;
 }
 
-.nav-menu a:hover, .nav-menu .active, .nav-menu,.active:focus,.nav-menu li:hover > a{
-  text-decoration:none;
-  color:purple;
-}
-
-.nav-menu a:hover i, .nav-menu .active i,
-.nav-menu .active:focus i, .nav-menu li:hover> a i{
-  color:mediumpurple;
-}
+.nav-menu a:hover, .nav-menu .active, .nav-menu, .nav-menu, .active
